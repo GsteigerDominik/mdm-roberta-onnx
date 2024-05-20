@@ -1,0 +1,99 @@
+{
+  "TimeStamp": "2024-05-20T17:21:04Z",
+  "Type": "Normal",
+  "ContainerAppName": null,
+  "RevisionName": null,
+  "ReplicaName": null,
+  "Msg": "Connecting to the events collector...",
+  "Reason": "StartingGettingEvents",
+  "EventSource": "ContainerAppController",
+  "Count": 1
+}
+{
+  "TimeStamp": "2024-05-20T17:21:04Z",
+  "Type": "Normal",
+  "ContainerAppName": null,
+  "RevisionName": null,
+  "ReplicaName": null,
+  "Msg": "Successfully connected to events server",
+  "Reason": "ConnectedToEventsServer",
+  "EventSource": "ContainerAppController",
+  "Count": 1
+}
+{
+  "TimeStamp": "2024-05-20 17:19:55 \u002B0000 UTC",
+  "Type": "Normal",
+  "ContainerAppName": "mdm-roberta-onnx-gsteidom",
+  "RevisionName": "mdm-roberta-onnx-gsteidom--qaz53n2",
+  "ReplicaName": "mdm-roberta-onnx-gsteidom--qaz53n2-66fbfcdc59-92vmt",
+  "Msg": "Pulling image \u0027dominikgsteiger/mdm-roberta-onnx:latest\u0027",
+  "Reason": "PullingImage",
+  "EventSource": "ContainerAppController",
+  "Count": 12
+}
+{
+  "TimeStamp": "2024-05-20 17:19:55 \u002B0000 UTC",
+  "Type": "Normal",
+  "ContainerAppName": "mdm-roberta-onnx-gsteidom",
+  "RevisionName": "mdm-roberta-onnx-gsteidom--qaz53n2",
+  "ReplicaName": "mdm-roberta-onnx-gsteidom--qaz53n2-66fbfcdc59-92vmt",
+  "Msg": "Successfully pulled image \u0027dominikgsteiger/mdm-roberta-onnx:latest\u0027 in 0.0210656s",
+  "Reason": "PulledImage",
+  "EventSource": "ContainerAppController",
+  "Count": 1
+}
+{
+  "TimeStamp": "2024-05-20 17:19:55 \u002B0000 UTC",
+  "Type": "Warning",
+  "ContainerAppName": "mdm-roberta-onnx-gsteidom",
+  "RevisionName": "mdm-roberta-onnx-gsteidom--qaz53n2",
+  "ReplicaName": "mdm-roberta-onnx-gsteidom--qaz53n2-66fbfcdc59-92vmt",
+  "Msg": "Container \u0027mdm-roberta-onnx-gsteidom\u0027 was terminated with exit code \u0027\u0027 and reason \u0027ContainerCreateFailure\u0027",
+  "Reason": "ContainerTerminated",
+  "EventSource": "ContainerAppController",
+  "Count": 11
+}
+{
+  "TimeStamp": "2024-05-20 17:20:01 \u002B0000 UTC",
+  "Type": "Normal",
+  "ContainerAppName": "mdm-roberta-onnx-gsteidom",
+  "RevisionName": "mdm-roberta-onnx-gsteidom--p7msuci",
+  "ReplicaName": "mdm-roberta-onnx-gsteidom--p7msuci-659f95cf86-l89v5",
+  "Msg": "Pulling image \u0027dominikgsteiger/mdm-roberta-onnx:latest\u0027",
+  "Reason": "PullingImage",
+  "EventSource": "ContainerAppController",
+  "Count": 8
+}
+{
+  "TimeStamp": "2024-05-20 17:20:01 \u002B0000 UTC",
+  "Type": "Normal",
+  "ContainerAppName": "mdm-roberta-onnx-gsteidom",
+  "RevisionName": "mdm-roberta-onnx-gsteidom--p7msuci",
+  "ReplicaName": "mdm-roberta-onnx-gsteidom--p7msuci-659f95cf86-l89v5",
+  "Msg": "Successfully pulled image \u0027dominikgsteiger/mdm-roberta-onnx:latest\u0027 in 0.0353407s",
+  "Reason": "PulledImage",
+  "EventSource": "ContainerAppController",
+  "Count": 1
+}
+{
+  "TimeStamp": "2024-05-20 17:20:01 \u002B0000 UTC",
+  "Type": "Warning",
+  "ContainerAppName": "mdm-roberta-onnx-gsteidom",
+  "RevisionName": "mdm-roberta-onnx-gsteidom--p7msuci",
+  "ReplicaName": "mdm-roberta-onnx-gsteidom--p7msuci-659f95cf86-l89v5",
+  "Msg": "Container \u0027mdm-roberta-onnx-gsteidom\u0027 was terminated with exit code \u0027\u0027 and reason \u0027ContainerCreateFailure\u0027",
+  "Reason": "ContainerTerminated",
+  "EventSource": "ContainerAppController",
+  "Count": 7
+}
+{
+  "TimeStamp": "2024-05-20 17:20:17 \u002B0000 UTC",
+  "Type": "Normal",
+  "ContainerAppName": "mdm-roberta-onnx-gsteidom",
+  "RevisionName": "mdm-roberta-onnx-gsteidom--qaz53n2",
+  "ReplicaName": "",
+  "Msg": "Deactivated apps/v1.Deployment k8se-apps/mdm-roberta-onnx-gsteidom--qaz53n2 from 1 to 0",
+  "Reason": "KEDAScaleTargetDeactivated",
+  "EventSource": "KEDA",
+  "Count": 1
+}
